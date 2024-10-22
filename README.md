@@ -36,7 +36,7 @@ Select the project (DBOfficeTaskManagement or DBOfficeTaskManagementv[version]).
 Open DBConnection.java and change the password to match your PostgreSQL password.
 
 **Add PostgreSQL Library:**  
-Right-click on Libraries, then select "Add Library..." and choose "PostgreSQL JDBC Driver." If you can't find it, download the JDBC driver manually from the official site (https://jdbc.postgresql.org/download/) and use JDBC 4.2. Right-click on Libraries, then select "Add JAR/Folder..." and choose the jdbc.jar file.
+Right-click on Libraries, then select "Add Library..." and choose "PostgreSQL JDBC Driver." If you can't find it, download the JDBC driver manually from the official site (https://jdbc.postgresql.org/download/) and use 42.7.4 version. Right-click on Libraries, then select "Add JAR/Folder..." and choose the postgresql-42.7.4.jar file.
 
 **Create New Database Connection:**  
 Open the Services tab, then right-click on Databases and select "New Connection..."
